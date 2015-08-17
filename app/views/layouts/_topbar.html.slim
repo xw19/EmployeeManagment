@@ -1,0 +1,16 @@
+nav.top-bar data-topbar="" role="navigation" 
+  ul.title-area
+    li.name
+      h1
+        a href="/" Employee Managment
+    /! Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone
+    li.toggle-topbar.menu-icon
+      a href="#" 
+        span Menu
+  section.top-bar-section
+    /! Right Nav Section
+    ul.right
+      li
+        = link_to "Help", help_path
+      li
+        = link_to "Contact", contact_path
