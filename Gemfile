@@ -43,13 +43,14 @@ group :development, :test do
   gem 'spring'
 
   gem 'sqlite3'
-  
+
 end
 
 gem "slim-rails"
 gem 'simple_form'
 gem 'country_select'
 gem 'foundation-rails'
+gem 'devise'
 
 group :production do
   gem 'pg'
